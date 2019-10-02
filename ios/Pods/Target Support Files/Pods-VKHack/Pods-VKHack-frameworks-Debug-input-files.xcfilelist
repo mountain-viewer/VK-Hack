@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-VKHack/Pods-VKHack-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Animated-Gif-iOS/Animated_Gif_iOS.framework
+${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework
+${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework
+${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework

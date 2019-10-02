@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C9A7276E13161DEDBCBC20 /* Pods_VKHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E896C713C116108DB60A190 /* Pods_VKHack.framework */; };
+		F540A898233FEFDA00EA6546 /* SuggestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F540A897233FEFDA00EA6546 /* SuggestionsViewController.m */; };
+		F543444F233FDFBE00505BEF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F543444E233FDFBE00505BEF /* AssetsLibrary.framework */; };
+		F571E9A32340257E00117ED3 /* GIFConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = F571E9A22340257E00117ED3 /* GIFConverter.m */; };
+		F571E9A62340269A00117ED3 /* VKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F571E9A52340269A00117ED3 /* VKViewController.m */; };
+		F590FD92233E9348008C484E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F590FD91233E9348008C484E /* AppDelegate.m */; };
+		F590FD95233E9348008C484E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F590FD94233E9348008C484E /* FirstViewController.m */; };
+		F590FD9B233E9348008C484E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F590FD99233E9348008C484E /* Main.storyboard */; };
+		F590FD9D233E934A008C484E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F590FD9C233E934A008C484E /* Assets.xcassets */; };
+		F590FDA0233E934A008C484E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F590FD9E233E934A008C484E /* LaunchScreen.storyboard */; };
+		F590FDA3233E934A008C484E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F590FDA2233E934A008C484E /* main.m */; };
+		F590FDAB233E951E008C484E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590FDAA233E951E008C484E /* Photos.framework */; };
+		F5BAED162340931A0036BC7E /* TeamQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED0F2340931A0036BC7E /* TeamQuizViewController.swift */; };
+		F5BAED172340931A0036BC7E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED102340931A0036BC7E /* ResultViewController.swift */; };
+		F5BAED182340931A0036BC7E /* TeamQuizDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED112340931A0036BC7E /* TeamQuizDataViewController.swift */; };
+		F5BAED192340931A0036BC7E /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED122340931A0036BC7E /* QuestionPageViewController.swift */; };
+		F5BAED1A2340931A0036BC7E /* TeamQuizPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */; };
+		F5BAED1B2340931A0036BC7E /* QuestionDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */; };
+		F5BAED1C2340931A0036BC7E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED152340931A0036BC7E /* QuestionViewController.swift */; };
+		F5BAED1E23409ED70036BC7E /* MyTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED1D23409ED70036BC7E /* MyTeamViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E896C713C116108DB60A190 /* Pods_VKHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKHack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF76D35374788E51BACDBFF /* Pods-VKHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKHack.debug.xcconfig"; path = "Target Support Files/Pods-VKHack/Pods-VKHack.debug.xcconfig"; sourceTree = "<group>"; };
+		D23E8B7115DA09D2299E2F0F /* Pods-VKHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKHack.release.xcconfig"; path = "Target Support Files/Pods-VKHack/Pods-VKHack.release.xcconfig"; sourceTree = "<group>"; };
+		F540A896233FEFDA00EA6546 /* SuggestionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuggestionsViewController.h; sourceTree = "<group>"; };
+		F540A897233FEFDA00EA6546 /* SuggestionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuggestionsViewController.m; sourceTree = "<group>"; };
+		F543444E233FDFBE00505BEF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F571E9A12340257E00117ED3 /* GIFConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIFConverter.h; sourceTree = "<group>"; };
+		F571E9A22340257E00117ED3 /* GIFConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFConverter.m; sourceTree = "<group>"; };
+		F571E9A42340269A00117ED3 /* VKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKViewController.h; sourceTree = "<group>"; };
+		F571E9A52340269A00117ED3 /* VKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKViewController.m; sourceTree = "<group>"; };
+		F590FD8D233E9348008C484E /* Sports.ru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sports.ru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F590FD90233E9348008C484E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F590FD91233E9348008C484E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F590FD93233E9348008C484E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F590FD94233E9348008C484E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F590FD9A233E9348008C484E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F590FD9C233E934A008C484E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F590FD9F233E934A008C484E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F590FDA1233E934A008C484E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F590FDA2233E934A008C484E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F590FDAA233E951E008C484E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		F5B8E359234056C8002F6B7E /* VKHack-Bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKHack-Bridging-header.h"; sourceTree = "<group>"; };
+		F5BAED0F2340931A0036BC7E /* TeamQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizViewController.swift; sourceTree = "<group>"; };
+		F5BAED102340931A0036BC7E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		F5BAED112340931A0036BC7E /* TeamQuizDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizDataViewController.swift; sourceTree = "<group>"; };
+		F5BAED122340931A0036BC7E /* QuestionPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
+		F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizPageViewController.swift; sourceTree = "<group>"; };
+		F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDataViewController.swift; sourceTree = "<group>"; };
+		F5BAED152340931A0036BC7E /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F5BAED1D23409ED70036BC7E /* MyTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTeamViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F590FD8A233E9348008C484E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F543444F233FDFBE00505BEF /* AssetsLibrary.framework in Frameworks */,
+				F590FDAB233E951E008C484E /* Photos.framework in Frameworks */,
+				B3C9A7276E13161DEDBCBC20 /* Pods_VKHack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A34196FD22662C46ACE6732D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEF76D35374788E51BACDBFF /* Pods-VKHack.debug.xcconfig */,
+				D23E8B7115DA09D2299E2F0F /* Pods-VKHack.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F590FD84233E9348008C484E = {
+			isa = PBXGroup;
+			children = (
+				F590FD8F233E9348008C484E /* VKHack */,
+				F590FD8E233E9348008C484E /* Products */,
+				F590FDA9233E951E008C484E /* Frameworks */,
+				A34196FD22662C46ACE6732D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F590FD8E233E9348008C484E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F590FD8D233E9348008C484E /* Sports.ru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F590FD8F233E9348008C484E /* VKHack */ = {
+			isa = PBXGroup;
+			children = (
+				F590FD90233E9348008C484E /* AppDelegate.h */,
+				F590FD91233E9348008C484E /* AppDelegate.m */,
+				F590FD93233E9348008C484E /* FirstViewController.h */,
+				F590FD94233E9348008C484E /* FirstViewController.m */,
+				F590FD99233E9348008C484E /* Main.storyboard */,
+				F590FD9C233E934A008C484E /* Assets.xcassets */,
+				F590FD9E233E934A008C484E /* LaunchScreen.storyboard */,
+				F590FDA1233E934A008C484E /* Info.plist */,
+				F590FDA2233E934A008C484E /* main.m */,
+				F540A896233FEFDA00EA6546 /* SuggestionsViewController.h */,
+				F540A897233FEFDA00EA6546 /* SuggestionsViewController.m */,
+				F571E9A12340257E00117ED3 /* GIFConverter.h */,
+				F571E9A22340257E00117ED3 /* GIFConverter.m */,
+				F571E9A42340269A00117ED3 /* VKViewController.h */,
+				F571E9A52340269A00117ED3 /* VKViewController.m */,
+				F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */,
+				F5BAED122340931A0036BC7E /* QuestionPageViewController.swift */,
+				F5BAED1D23409ED70036BC7E /* MyTeamViewController.swift */,
+				F5BAED152340931A0036BC7E /* QuestionViewController.swift */,
+				F5BAED102340931A0036BC7E /* ResultViewController.swift */,
+				F5BAED112340931A0036BC7E /* TeamQuizDataViewController.swift */,
+				F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */,
+				F5BAED0F2340931A0036BC7E /* TeamQuizViewController.swift */,
+				F5B8E359234056C8002F6B7E /* VKHack-Bridging-header.h */,
+			);
+			path = VKHack;
+			sourceTree = "<group>";
+		};
+		F590FDA9233E951E008C484E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F543444E233FDFBE00505BEF /* AssetsLibrary.framework */,
+				F590FDAA233E951E008C484E /* Photos.framework */,
+				3E896C713C116108DB60A190 /* Pods_VKHack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F590FD8C233E9348008C484E /* VKHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F590FDA6233E934A008C484E /* Build configuration list for PBXNativeTarget "VKHack" */;
+			buildPhases = (
+				3071C57A92332230A892CEE9 /* [CP] Check Pods Manifest.lock */,
+				F590FD89233E9348008C484E /* Sources */,
+				F590FD8A233E9348008C484E /* Frameworks */,
+				F590FD8B233E9348008C484E /* Resources */,
+				1708A9AC0FBE8BE6B1E71BD5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKHack;
+			productName = VKHack;
+			productReference = F590FD8D233E9348008C484E /* Sports.ru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F590FD85233E9348008C484E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Vladislav Shakhray";
+				TargetAttributes = {
+					F590FD8C233E9348008C484E = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = F590FD88233E9348008C484E /* Build configuration list for PBXProject "VKHack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F590FD84233E9348008C484E;
+			productRefGroup = F590FD8E233E9348008C484E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F590FD8C233E9348008C484E /* VKHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F590FD8B233E9348008C484E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F590FDA0233E934A008C484E /* LaunchScreen.storyboard in Resources */,
+				F590FD9D233E934A008C484E /* Assets.xcassets in Resources */,
+				F590FD9B233E9348008C484E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1708A9AC0FBE8BE6B1E71BD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKHack/Pods-VKHack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKHack/Pods-VKHack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKHack/Pods-VKHack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3071C57A92332230A892CEE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKHack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F590FD89233E9348008C484E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F590FD92233E9348008C484E /* AppDelegate.m in Sources */,
+				F571E9A62340269A00117ED3 /* VKViewController.m in Sources */,
+				F5BAED162340931A0036BC7E /* TeamQuizViewController.swift in Sources */,
+				F5BAED172340931A0036BC7E /* ResultViewController.swift in Sources */,
+				F5BAED1B2340931A0036BC7E /* QuestionDataViewController.swift in Sources */,
+				F540A898233FEFDA00EA6546 /* SuggestionsViewController.m in Sources */,
+				F5BAED1C2340931A0036BC7E /* QuestionViewController.swift in Sources */,
+				F5BAED1E23409ED70036BC7E /* MyTeamViewController.swift in Sources */,
+				F5BAED182340931A0036BC7E /* TeamQuizDataViewController.swift in Sources */,
+				F5BAED1A2340931A0036BC7E /* TeamQuizPageViewController.swift in Sources */,
+				F571E9A32340257E00117ED3 /* GIFConverter.m in Sources */,
+				F590FDA3233E934A008C484E /* main.m in Sources */,
+				F5BAED192340931A0036BC7E /* QuestionPageViewController.swift in Sources */,
+				F590FD95233E9348008C484E /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F590FD99233E9348008C484E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F590FD9A233E9348008C484E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F590FD9E233E934A008C484E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F590FD9F233E934A008C484E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F590FDA4233E934A008C484E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F590FDA5233E934A008C484E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F590FDA7233E934A008C484E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF76D35374788E51BACDBFF /* Pods-VKHack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KWGKUV8D;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					ff,
+				);
+				INFOPLIST_FILE = VKHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shakhrayv.VKHack;
+				PRODUCT_NAME = Sports.ru;
+				SWIFT_OBJC_BRIDGING_HEADER = "VKHack/VKHack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F590FDA8233E934A008C484E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23E8B7115DA09D2299E2F0F /* Pods-VKHack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KWGKUV8D;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = VKHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shakhrayv.VKHack;
+				PRODUCT_NAME = Sports.ru;
+				SWIFT_OBJC_BRIDGING_HEADER = "VKHack/VKHack-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F590FD88233E9348008C484E /* Build configuration list for PBXProject "VKHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F590FDA4233E934A008C484E /* Debug */,
+				F590FDA5233E934A008C484E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F590FDA6233E934A008C484E /* Build configuration list for PBXNativeTarget "VKHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F590FDA7233E934A008C484E /* Debug */,
+				F590FDA8233E934A008C484E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F590FD85233E9348008C484E /* Project object */;
+}

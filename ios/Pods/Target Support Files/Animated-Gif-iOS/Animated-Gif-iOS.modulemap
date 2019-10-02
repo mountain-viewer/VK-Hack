@@ -1,0 +1,6 @@
+framework module Animated_Gif_iOS {
+  umbrella header "Animated-Gif-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

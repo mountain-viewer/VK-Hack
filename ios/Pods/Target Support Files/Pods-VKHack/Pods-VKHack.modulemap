@@ -1,0 +1,6 @@
+framework module Pods_VKHack {
+  umbrella header "Pods-VKHack-umbrella.h"
+
+  export *
+  module * { export * }
+}
